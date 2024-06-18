@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #84c772;
+    --secundary-color: #d7d5d2;
+    --primary-blue: #2a69b3;
+    --button-selected: #d7d5d2;
+    --black: #1a161d;
+    --white: #fff;
+    ---gray: #ecebeb;
+    --font-size: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.mat-mdc-card {
+    margin: 15px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(---gray);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.delete-button {
+    margin-left: auto;
+  }
+
+  ::ng-deep .mat-mdc-card,
+.mat-mdc-card-header,
+.mat-mdc-card-title,
+.mat-mdc-card-actions,
+.mat-mdc-card-subtitle {
+    background-color: var(--white);
+}
+ 

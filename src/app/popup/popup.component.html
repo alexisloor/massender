@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Añadir Persona</h1>
+<div mat-dialog-content>
+  <form  class="person-form">
+    <label for="name">Nombre Completo</label>
+    <input type="text" id="employeename"  placeholder="Nombre Completo"  name="name" matInput [(ngModel)]="employeeName" required>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button (click)="onNoClick()">Cerrar</button>
+  <button [mat-dialog-close]="employeeName" cdkFocusInitial>Añadir</button>
+</div>

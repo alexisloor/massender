@@ -1,0 +1,55 @@
+.container{
+    min-height: 100dvh;
+}
+
+.title-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 20, 20);
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.title-button h1{
+    color: azure;
+    background-color: rgb(3, 20, 20);
+    margin: 0;
+    font-size: 40px;
+}
+
+.btn{
+    font-size: 17px;
+    width: 145px;
+    height: 40px;
+    background-color: rgb(90, 124, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.description p{
+    font-size: 20px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.mat-mdc-card-actions button {
+    color: var(--white);
+    background-color: var(--primary-blue);
+    margin-right: 10px;
+    font-size: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: var(--primary-blue);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
